@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="container-fluid bg-primary">
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown </a>
+                        <ul class="dropdown-menu bg-warning">
+                            <li><a class="dropdown-item" href="index.html">Summer Night Sound</a></li>
+                            <li><a class="dropdown-item" href="./pages/tickets.html">Tickets</a></li>
+                    </li>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <br>
+        <h1 class="bg-danger">BOOSTRAP</h1>
+        <br>
+        <div class="d-flex justify-content-center">
+            <a class="btn btn-primary" href="https://getbootstrap.com/docs/5.3/components/buttons/" role="button">VISIT BOOSTRAP WEBSITE</a> 
+        </div>
+        <br>
+        <h1>EVENTOS 2023</h1>
+        <section class="row">
+            <div class="card bg-danger col" style="width: 18rem;">
+                <img src="./assets/lolla.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> LOLLAPALLOOZA </h5>
+                    <p class="card-text">15, 16 y 17 de marzo 3 días con shows de más de 100 artistas, en 5 escenarios
+                        con variedad y calidad para que todos disfruten.</p>
+                    <a href="https://www.lollapaloozaar.com/" class="btn btn-primary">Visita el sitio oficial</a>
+                </div>
+            </div>
+            <div class="card bg-danger col" style="width: 18rem;">
+                <img src="./assets/sumer.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> SUMMER NIGHT SOUND </h5>
+                    <p class="card-text">3 y 4 de diciembre, dos días con shows de más de 20 artistas, en 2 escenarios con variedad y calidad para que todos disfruten.</p>
+                    <a href="index.html" class="btn btn-primary">Visita el sitio oficial</a>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="card bg-danger col" style="width: 18rem;">
+                <img src="./assets/primavera.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> PRIMAVERA SOUND </h5>
+                    <p class="card-text"> 25 y 26 de noviembre, 2 días con shows de más de 100 artistas, en 4 escenarios
+                        con variedad y calidad para que todos disfruten.</p>
+                    <a href="https://www.primaverasound.com/es/buenos-aires" class="btn btn-primary">Visita el sitio oficial</a>
+                </div>
+            </div>
+            <div class="card bg-danger col" style="width: 18rem;">
+                <img src="./assets/rollingloud.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ROLLING LOUD</h5>
+                    <p class="card-text">28 y 29 de septiembre, dos días con shows de más de 20 artistas, en 2 escenarios con variedad y calidad para que todos disfruten.</p>
+                    <a href="https://www.rollingloud.com/california-2024" class="btn btn-primary">Visita el sitio oficial</a>
+                </div>
+            </div>
+        </section>
+        <br>
+        <h1>GALERIA DE FOTOS 2023</h1>
+        <br>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/Fireworks1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="./assets/Fireworks2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/Fireworks3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+            <br>
+    </main>
+    <footer class="bg-primary">
+<br>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html> 
