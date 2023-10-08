@@ -1,0 +1,23 @@
+main{ .banner img {width: 100%;
+        height: 25rem;}
+        
+    
+    .principal { text-align: center;-webkit-text-fill-color:#FFFFFF;text-transform: uppercase;
+        font-size: large;
+        h1 {font-size: 3rem;}
+    }
+    .banner-osde { display: flex; justify-content: center;} 
+    .lineups {display: flex; flex-direction: row;  justify-content: space-between; 
+        .diauno {width: 40rem; display: flex;
+            flex-direction: column;
+            align-items: center; 
+                img{ width: 80%;}
+            }
+        .diados { @extend .diauno;
+            }
+        }
+    .mapainicio {display: flex;flex-direction: row; justify-content: center; background-color: $sectionbackground; height: 7rem; align-items: center; justify-content: space-evenly;
+        margin: 3rem; 
+        h1{-webkit-text-fill-color: #000000; font-size: 4rem;}
+        } 
+}

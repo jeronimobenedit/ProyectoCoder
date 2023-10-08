@@ -1,0 +1,8 @@
+@mixin flex-center{
+    display: flex; justify-content: center;
+}
+@mixin padding { padding-left: 30px; padding-right: 30px ;}
+
+@mixin list-disc {list-style-type: disc; color: #FA4CFE ;
+    padding-left: 20px;}
+    

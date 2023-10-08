@@ -1,0 +1,12 @@
+button { font-family:$jockey-font; text-shadow: .125rem .125rem .25rem #FFFFFF;} 
+
+.boton-compra button {background-color: #FA4CFE;-webkit-text-fill-color: #000000;
+    height: 5rem; width: 10rem ;
+    &:hover {background-color: aqua;} 
+    } 
+
+.mapainicio button {background-color: #000000; -webkit-text-fill-color: #FFFFFF; height: 3rem ; width: 8rem;}  
+
+.boton-comollegar button { height: 4rem; width: 15rem ; font-size: 30px;
+    &:hover {background-color: blueviolet;} 
+}

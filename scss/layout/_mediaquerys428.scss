@@ -1,0 +1,44 @@
+@media (max-width:428px){
+    .como-llegar { font-size: $small-font-size;
+    }
+    .mapa-texto a img { max-width: 280px ;
+    }
+    .mapainterno img {max-width: 280px;
+    }
+    .footer-redes { display: flex; justify-content: center;
+        a img { max-width: 22px;
+        }
+        p {font-size: 6px ;}
+    }
+    .logo-header a img { width: 25px;
+    }
+    .banner-osde img { width: 290px;
+    }
+    .titulo-mapa h1 {font-size: 27px ;}
+    .boton-comollegar button{ max-width: 50px; max-height: 35px; font-size: 10px !important; 
+    }
+    .boton-compra button{ max-width: 80px; font-size: $small-font-size !important;
+    }
+    .banner img { max-height: 200px;
+    }
+    .principal { 
+        h1{ font-size: 35px;}
+        h2{ font-size: 20px;}
+    } 
+    .mapainicio { .titulo-mapa h1{
+        font-size: 28px;
+        }
+    }
+    .prevencion { 
+        .lista-prohibidos li{
+            margin: 10px; font-size: $small-font-size;
+            }
+        .atencionmedica { p {
+                margin: 10px; font-size: 12px;
+            }
+            h2{
+                margin: 11px;
+            }
+            }
+        }
+}

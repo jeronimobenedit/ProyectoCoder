@@ -1,0 +1,9 @@
+.prevencion{
+    h2{text-align: center;}
+    
+    .lista-prohibidos{@include list-disc;
+    }
+    .atencionmedica p { @include padding;
+
+    }
+}

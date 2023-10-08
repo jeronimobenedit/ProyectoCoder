@@ -1,0 +1,25 @@
+@media (max-width:768px){
+    .como-llegar { font-size: 14px;}
+    .mapainterno img { max-width:500px ; max-height: 250px;
+    }
+    .logo-header a img { width: 40px;
+    }
+    .banner-osde img { width: 415px;
+    }
+    .boton-comollegar button{ max-width: 170px; font-size: 18px !important;
+    }
+    .banner img { max-height: 300px;
+    }
+    .mapainicio { .titulo-mapa h1{
+        font-size: 42px;
+        }
+    }
+    .prevencion { 
+        .lista-prohibidos li{
+            margin: 10px; font-size: 14px;
+            }
+        .atencionmedica p {
+            margin: 10px; font-size: 14px;
+            }
+    }
+}

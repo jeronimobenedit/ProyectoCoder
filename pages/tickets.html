@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="keywords" content="tickets, comprar entradas, preventa, entrada dia uno, entrada dia dos">
+    <meta name="description" content="Saca tus entradas de la primer preventa del Summer Night Sound 2023">
+    <meta property="og:title" content= SummerNightSound>
+    <meta property="og:site_name" content= SummerNightSound>
+    <meta property="og:url" content="">
+    <meta property="og:description" content= "Summer Night Sound 2023, 3 y 4 de diciembre.">
+    <meta property="og:type" content=website>
+    <meta property="og:image" content=https://ibb.co/qyQr8PS>
+    <title>Tickets | Summer Night Sound</title>
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,68 +41,66 @@
 </ul>
 </nav>
 </header>
-<main>
+<main class="main-tickets">
     <br>
-<section class="tickets">
-    <h1>TICKETS</h1>
-<br>
-    <section class="tickets-info">
-        <div>
-            <h2>PREVENTA 1:</h2>
-        </div>
-        <div>
-            <h3>UN DIA <br> <div class="precio1"> $40.000</h3> </div>
-        </div>
-        <div>
-            <h3>DOS DIAS <br> <div class="precio2"> $75.000</h3> </div>
-        </div>
+    <section class="tickets">
+        <h1>TICKETS</h1>
+        <br>
+        <section class="tickets-info">
+            <div>
+                <h2>PREVENTA 1:</h2>
+            </div>
+            <div>
+                <h3>UN DIA <br> <div class="precio1"> $40.000</h3> </div>
+            </div>
+            <div>
+                <h3>DOS DIAS <br> <div class="precio2"> $75.000</h3> </div>
+            </div>
+        </section>
+        <br>
+        <section class="tickets-info2">
+            <div>
+                <h2>MEDIOS DE PAGO:</h2>
+            </div>
+            <div>
+                <h3>DEBITO/CREDITO/MERCADO PAGO/PAYPAL</h3>
+            </div>
+        </section>
+        <form action="">
+            <fieldset>
+                <legend>COMPRAR ENTRADAS</legend>
+                <label for="name"> NOMBRE: </label>
+                <input type="text" id="name" required> 
+                <br>
+                <label for="mail"> MAIL: </label>
+                <input type="text" id="mail" required>
+                <br>
+                <label for="dni"> DNI: </label>
+                <input type="text" id="dni" required>
+                <br>
+                <label for="opciones"> ENTRADA: </label>
+                <select name="opciones" id="opciones" required>
+                    <option value="option 1"> DIA 1; $40.000</option>
+                    <option value="option 2"> DIA 2; $40.000</option>
+                    <option value="option 3"> DIA 1 Y 2; $75.000</option>
+                </select>
+                <br>
+                <label for="opciones2"> TARJETA: </label>
+                <select name="opciones2" id="opciones2" required>
+                    <option value="credito"> CREDITO</option>
+                    <option value="debito"> DEBITO</option>
+                </select>
+                <br>
+                <label for="numero"> NUMERO DE TARJETA: </label>
+                <input type="text" id="numero" required>
+            </fieldset>
+        </form>
     </section>
     <br>
-    <section class="tickets-info2">
-        <div>
-            <h2>MEDIOS DE PAGO:</h2>
-        </div>
-        <div>
-            <h3>DEBITO/CREDITO/MERCADO PAGO/PAYPAL</h3>
-        </div>
-    </section>
-    <form action="">
-        <fieldset>
-            <legend>COMPRAR ENTRADAS</legend>
-            <label for="name"> NOMBRE: </label>
-            <input type="text" id="name" required> 
-            <br>
-            <label for="mail"> MAIL: </label>
-            <input type="text" id="mail" required>
-            <br>
-            <label for="dni"> DNI: </label>
-            <input type="text" id="dni" required>
-            <br>
-            <label for="opciones"> ENTRADA: </label>
-            <select name="opciones" id="opciones" required>
-                <option value="option 1"> DIA 1; $40.000</option>
-                <option value="option 2"> DIA 2; $40.000</option>
-                <option value="option 3"> DIA 1 Y 2; $75.000</option>
-            </select>
-            <br>
-            <label for="opciones2"> TARJETA: </label>
-            <select name="opciones2" id="opciones2" required>
-                <option value="credito"> CREDITO</option>
-                <option value="debito"> DEBITO</option>
-            </select>
-            <br>
-            <label for="numero"> NUMERO DE TARJETA: </label>
-            <input type="text" id="numero" required>
-        </fieldset>
-
-    </form>
-</section>
-
-<br>
-<h2>TERMINOS Y CONDICIONES DEL ABONO</h2>
-<br>
-<p>Lorem ipsum dolor sit amet consectetur. Egestas diam scelerisque nulla massa pulvinar. Non lectus egestas at metus sit. Sed sed fames sagittis risus pharetra vestibulum posuere. Sit cursus donec pulvinar in. Egestas sagittis eu ipsum habitasse ultrices ut praesent. Pretium quis et amet in ultricies. Ut ullamcorper mauris quis hendrerit ut pulvinar. Ultrices malesuada amet morbi aliquam in at vehicula elementum. Tincidunt nulla id sollicitudin a gravida. Adipiscing scelerisque mattis tempor sodales feugiat commodo proin tempor. Id auctor dui proin molestie pretium sed tincidunt. Sed vitae adipiscing egestas commodo a. Cursus tortor orci et urna dui arcu mattis.</p>
-
+    <h2>TERMINOS Y CONDICIONES DEL ABONO</h2>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur. Egestas diam scelerisque nulla massa pulvinar. Non lectus egestas at metus sit. Sed sed fames sagittis risus pharetra vestibulum posuere. Sit cursus donec pulvinar in. Egestas sagittis eu ipsum habitasse ultrices ut praesent. Pretium quis et amet in ultricies. Ut ullamcorper mauris quis hendrerit ut pulvinar. Ultrices malesuada amet morbi aliquam in at vehicula elementum. Tincidunt nulla id sollicitudin a gravida. Adipiscing scelerisque mattis tempor sodales feugiat commodo proin tempor. Id auctor dui proin molestie pretium sed tincidunt. Sed vitae adipiscing egestas commodo a. Cursus tortor orci et urna dui arcu mattis.Egestas diam scelerisque nulla massa pulvinar. Non lectus egestas at metus sit. Sed sed fames sagittis risus pharetra vestibulum posuere. Sit cursus donec pulvinar in. Egestas sagittis eu ipsum habitasse ultrices ut praesent. Pretium quis et amet in ultricies. Ut ullamcorper mauris quis hendrerit ut pulvinar. Ultrices malesuada amet morbi aliquam in at vehicula elementum. Tincidunt nulla id sollicitudin a gravida. Adipiscing scelerisque mattis tempor sodales feugiat commodo proin tempor. Id auctor dui proin molestie pretium sed tincidunt. Sed vitae adipiscing egestas commodo a.</p>
+    <br>
 </main>
 
 <footer>

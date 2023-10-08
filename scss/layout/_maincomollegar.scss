@@ -1,0 +1,11 @@
+main{
+    .desde{@include list-disc;}
+    .mapa-texto {@include flex-center;}
+    .subtitulos_comollegar { 
+        h2{@include flex-center;}
+        p {@include padding;}
+    }
+    .mapainterno {@include flex-center;
+        img{width: 38rem; height: 24rem;}
+    }
+}

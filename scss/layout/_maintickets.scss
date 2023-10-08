@@ -1,0 +1,26 @@
+.main-tickets{ 
+    .tickets{ justify-content: center; background-color: $sectionbackground; -webkit-text-fill-color: #000000; margin: 2rem;
+        .h1{font-size: 3rem; -webkit-text-fill-color: #000000; text-decoration: underline;}
+        .tickets-info {flex-direction: row;
+            div { @include flex-center;}
+            h2 {text-decoration: underline;} 
+            .precio1 {-webkit-text-fill-color: #FFFFFF;}
+            .precio2 {@extend .precio1;}
+        }
+        .tickets-info2 {
+            div { @include flex-center;}
+            h2 {text-decoration: underline;} 
+        }
+        fieldset {
+            legend{ font-size: 2rem;} 
+            input[type="text"]:focus{ background-color: aqua }
+        }
+    }
+    h2{text-align: center;}
+    p { @include padding;}
+}
+
+
+
+
+
