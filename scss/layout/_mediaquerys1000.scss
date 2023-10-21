@@ -1,4 +1,40 @@
 @media (max-width:1000px){
     .banner-osde img { width: 750px;
     }
-} 
+    .artistas{
+        .container-artinter{
+            .artistas-inter1 { 
+                img {
+                    max-height: 250px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+            .artistas-inter2 { 
+                img {
+                    max-height: 250px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+            .artistas-inter3 { 
+                img {
+                    max-height: 250px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+            .artistas-inter4 { 
+                img {
+                    max-height: 250px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    } 
+}

@@ -41,4 +41,49 @@
             }
             }
         }
+    .main-tickets{
+        form{
+            fieldset {
+                border: 1px solid #ccc;
+                padding: 20px;
+                max-width: 400px;}
+        }
+        p {
+            font-size: 12px;
+        }
+        h2{
+            font-size: 22px;
+        }
+        h1{
+            font-size: 39px;
+        }
+        h3{
+            font-size: 17px;
+        }
+    }
+    .artistas {
+        .container-artnacionales1{
+            .artistas-nacionales{
+                display: flex; flex-direction: column;
+                padding: 10px; width: 50%;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        .container-artinter{
+            .artistas-inter1 p{
+                font-size: 11px;
+            }
+            .artistas-inter2 p{
+                font-size: 11px;
+            }
+            .artistas-inter3 p{
+                font-size: 11px;
+            }
+            .artistas-inter4 p{
+                font-size: 11px;
+            }
+        }
+    }
 }

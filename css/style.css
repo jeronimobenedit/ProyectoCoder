@@ -207,6 +207,9 @@ main .mapainicio h1 {
   padding-right: 30px;
 }
 
+.artistas h2 {
+  padding-left: 5px;
+}
 .artistas .container-artinter {
   display: -ms-grid;
   display: grid;
@@ -365,6 +368,30 @@ main .mapainterno img {
   .banner-osde img {
     width: 750px;
   }
+  .artistas .container-artinter .artistas-inter1 img {
+    max-height: 250px;
+  }
+  .artistas .container-artinter .artistas-inter1 p {
+    font-size: 13px;
+  }
+  .artistas .container-artinter .artistas-inter2 img {
+    max-height: 250px;
+  }
+  .artistas .container-artinter .artistas-inter2 p {
+    font-size: 13px;
+  }
+  .artistas .container-artinter .artistas-inter3 img {
+    max-height: 250px;
+  }
+  .artistas .container-artinter .artistas-inter3 p {
+    font-size: 13px;
+  }
+  .artistas .container-artinter .artistas-inter4 img {
+    max-height: 250px;
+  }
+  .artistas .container-artinter .artistas-inter4 p {
+    font-size: 13px;
+  }
 }
 @media (max-width: 768px) {
   .como-llegar {
@@ -398,6 +425,148 @@ main .mapainterno img {
     margin: 10px;
     font-size: 14px;
   }
+  .artistas .container-artnacionales1, .artistas .container-artnacionales2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .artistas .container-artnacionales1 .artistas-nacionales, .artistas .container-artnacionales2 .artistas-nacionales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 10px;
+    width: 70%;
+  }
+  .artistas .container-artnacionales1 .artistas-nacionales p, .artistas .container-artnacionales2 .artistas-nacionales p {
+    padding: 10px;
+  }
+  .artistas .container-artinter {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "karol" "drake" "taylor" "miley";
+  }
+  .artistas .container-artinter .artistas-inter1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    grid-area: karol;
+    margin: 15px;
+  }
+  .artistas .container-artinter .artistas-inter1 img {
+    margin: 15px;
+  }
+  .artistas .container-artinter .artistas-inter2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    grid-area: drake;
+    margin: 15px;
+  }
+  .artistas .container-artinter .artistas-inter2 img {
+    margin: 15px;
+  }
+  .artistas .container-artinter .artistas-inter3 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    grid-area: taylor;
+    margin: 15px;
+  }
+  .artistas .container-artinter .artistas-inter3 img {
+    margin: 15px;
+  }
+  .artistas .container-artinter .artistas-inter4 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    grid-area: miley;
+    margin: 15px;
+  }
+  @media (max-width: 768px) {
+  .artistas .container-artinter .artistas-inter1 {
+      -ms-grid-row: 1;
+      -ms-grid-column: 1;
+  }
+  .artistas .container-artinter .artistas-inter2 {
+      -ms-grid-row: 2;
+      -ms-grid-column: 1;
+  }
+  .artistas .container-artinter .artistas-inter3 {
+      -ms-grid-row: 3;
+      -ms-grid-column: 1;
+  }
+  .artistas .container-artinter .artistas-inter4 {
+      -ms-grid-row: 4;
+      -ms-grid-column: 1;
+  }
+  }
+  .artistas .container-artinter .artistas-inter4 img {
+    margin: 15px;
+  }
+  .artistas .container-artinter .artistas-inter1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .artistas .container-artinter .artistas-inter2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+  .artistas .container-artinter .artistas-inter3 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  .artistas .container-artinter .artistas-inter4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
 }
 @media (max-width: 550px) {
   .mapainterno img {
@@ -426,6 +595,9 @@ main .mapainterno img {
   }
   .banner img {
     max-height: 250px;
+  }
+  .artistas .container-artnacionales1 .artistas-nacionales p, .artistas .container-artnacionales2 .artistas-nacionales p {
+    font-size: 12px;
   }
 }
 @media (max-width: 428px) {
@@ -492,6 +664,49 @@ main .mapainterno img {
   }
   .prevencion .atencionmedica h2 {
     margin: 11px;
+  }
+  .main-tickets form fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+  }
+  .main-tickets p {
+    font-size: 12px;
+  }
+  .main-tickets h2 {
+    font-size: 22px;
+  }
+  .main-tickets h1 {
+    font-size: 39px;
+  }
+  .main-tickets h3 {
+    font-size: 17px;
+  }
+  .artistas .container-artnacionales1 .artistas-nacionales, .artistas .container-artnacionales2 .artistas-nacionales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px;
+    width: 50%;
+  }
+  .artistas .container-artnacionales1 .artistas-nacionales p, .artistas .container-artnacionales2 .artistas-nacionales p {
+    font-size: 14px;
+  }
+  .artistas .container-artinter .artistas-inter1 p {
+    font-size: 11px;
+  }
+  .artistas .container-artinter .artistas-inter2 p {
+    font-size: 11px;
+  }
+  .artistas .container-artinter .artistas-inter3 p {
+    font-size: 11px;
+  }
+  .artistas .container-artinter .artistas-inter4 p {
+    font-size: 11px;
   }
 }
 button {

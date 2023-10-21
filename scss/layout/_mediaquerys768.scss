@@ -22,4 +22,40 @@
             margin: 10px; font-size: 14px;
             }
     }
+    .artistas {
+        .container-artnacionales1{
+            display: flex; flex-direction: column; align-items: center; 
+            .artistas-nacionales{
+                display: flex; flex-direction: row;
+                padding: 10px; width: 70%;
+                p{
+                    padding: 10px;
+                }
+            }
+        }
+        .container-artinter{
+            display: grid; width: 100%;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr; 
+            grid-template-areas:
+            "karol"
+            "drake"
+            "taylor"
+            "miley";
+            .artistas-inter1 {display: flex; flex-direction: row; justify-content: space-around;
+                grid-area: karol; margin: 15px;
+                img {margin: 15px}} 
+            .artistas-inter2 {display: flex; flex-direction: row; justify-content: space-around;
+                grid-area: drake;margin: 15px;
+                img {margin: 15px} }
+            .artistas-inter3 {display: flex; flex-direction: row; justify-content: space-around;
+                grid-area: taylor; margin: 15px;
+                img {margin: 15px} }
+            .artistas-inter4 {display: flex; flex-direction: row; justify-content: space-around;
+                grid-area: miley; margin: 15px;
+                img {margin: 15px} } 
+        }
+    }
 }
+
+
